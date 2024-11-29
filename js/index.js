@@ -41,7 +41,7 @@ function obtenerRecetas() {
           article.style.transform = "scale(1)";
         });
       }
-
+      
       const buttonSubmit = document.querySelector(".button-submit");
       buttonSubmit.addEventListener("mouseenter", function() {
         this.style.backgroundColor = "#0056b3";

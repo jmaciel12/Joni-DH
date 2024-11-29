@@ -50,6 +50,4 @@ if (selectedTag) {
     .catch(function (e) {
       console.log("Error:", e);
     });
-} else {
-  console.log("No se especificó un tag en la URL.");
-}
+} 
