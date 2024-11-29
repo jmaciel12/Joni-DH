@@ -19,12 +19,7 @@
     </a>
     <section class="navigation">
       <form class="search-form" action="search-results.html" method="get">
-        <input
-          type="text"
-          name="search"
-          class="search"
-          placeholder="Buscar..."
-        />
+        <input type="text" name="search" class="search" placeholder="Buscar..."/>
         <button type="submit" class="search-button">Buscar</button>
       </form>
       <ul class="menu">
@@ -38,6 +33,32 @@
     </section>
     <img class="mobile-menu" src="imgs/menumobile.png" alt="" />
   </header>
+  <main>
+    <div class="main-container">
+      <div class="row-center">
+        <div class="column-medium">
+          <h2>Registrate</h2>
+          <form method="get" class="form-contact" action="login.html">
+            <div class="group-form">
+              <label for="email">Correo electrónico</label>
+              <input type="email" name="email" id="email" class="input-control"/>
+              <div class="feedback-error email"></div>
+            </div>
+            <div class="group-form">
+              <label for="password">Contraseña</label>
+              <input type="password" name="password" id="password" class="input-control"/>
+              <div class="feedback-error password"></div>
+            </div>
+            <div class="checkbox-terms">
+              <input type="checkbox" name="terms" id="terms" class="input-checkbox" required />
+              <label for="terms" class="label-checkbox">Términos y condiciones</label><br />
+            </div>
+            <button type="submit" class="button-submit">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
   <footer class="footer">
     <div class="footer-item">Jonatan Maciel</div>
   </footer>

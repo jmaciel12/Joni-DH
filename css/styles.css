@@ -340,10 +340,16 @@ header {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  text-align: center;
-  margin-top: 10px;
+  text-align:
 }
 
+.checkbox-terms {
+  display: flex;
+  align-items: center;
+}
 
+.label-checkbox {
+  margin-left: 5px;
+}
 
 
